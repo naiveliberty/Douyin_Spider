@@ -19,15 +19,15 @@
 #### 目录结构
 
 ```
-douyin.py				#爬虫文件
+douyin.py				      #爬虫文件
 douyin_signature.js		#抖音 _signature 参数生成文件
-get_signa.js			#express web框架入口文件
+get_signa.js			    #express web框架入口文件
 ```
 
 #### 签名生成需要的参数
 
 ```
-tac			# 可以从 PC 端用户主页 HTMl 源码中获取到
+tac			  # 可以从 PC 端用户主页 HTMl 源码中获取到
 user_id		# 用户主页 url 中获取
 userAgent	# 请求头中获取
 
