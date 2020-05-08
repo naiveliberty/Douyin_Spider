@@ -14,3 +14,6 @@ app.get('/douyin', function (req, res) {
         res.send('keys未生成!');
     }
 });
+
+var server = app.listen(8000);
+console.log("server running http://127.0.0.1:8000");
