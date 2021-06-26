@@ -29,4 +29,4 @@ app.get('/douyin2', function (req, res) {
 });
 
 var server = app.listen(8000);
-console.log("server running http://127.0.0.1:8000");
+console.log("server running http://0.0.0.0:8000");
